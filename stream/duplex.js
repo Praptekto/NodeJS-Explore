@@ -1,6 +1,6 @@
 const { read } = require("fs");
 const {Duplex}= require("stream");
-
+//Urutan read sama write kaga ngefek kata mas hasan
 const duplexStream=new Duplex({
     //kita mabil dari 2 dan 3(read dan write stream)
     write(chunk, encoding , callback){ // ini adalah salah satu event 
